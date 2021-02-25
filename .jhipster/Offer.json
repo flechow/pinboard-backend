@@ -1,0 +1,73 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [
+    {
+      "relationshipName": "category",
+      "otherEntityName": "category",
+      "relationshipType": "one-to-one",
+      "otherEntityField": "name",
+      "ownerSide": true,
+      "useJPADerivedIdentifier": false,
+      "otherEntityRelationshipName": "offer"
+    },
+    {
+      "relationshipName": "latLng",
+      "otherEntityName": "latLng",
+      "relationshipType": "one-to-one",
+      "otherEntityField": "latitude",
+      "ownerSide": true,
+      "useJPADerivedIdentifier": false,
+      "otherEntityRelationshipName": "offer"
+    },
+    {
+      "relationshipName": "image",
+      "otherEntityName": "image",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "offer"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "price",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "publishDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "owner",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "viewedCounter",
+      "fieldType": "Float"
+    }
+  ],
+  "changelogDate": "20210218235011",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "offer",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination"
+}

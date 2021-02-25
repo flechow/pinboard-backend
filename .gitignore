@@ -21,3 +21,30 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/.idea/
+/node_modules/
+/target/
+/.editorconfig
+/.gitattributes
+/.huskyrc
+/.lintstagedrc.js
+/.prettierignore
+/.prettierrc
+/.yo-rc.json
+/checkstyle.xml
+/mvnw
+/mvnw.cmd
+/package.json
+/package-lock.json
+/pinboard.iml
+/sonar-project.properties
+/swagger-editor/
+/api/
+/src/main/resources/
+/src/main/jib/
+/src/main/docker/
+/src/test/resources/
+/src/test/resources/
+/.mvn/wrapper/maven-wrapper.properties
+/.mvn/wrapper/MavenWrapperDownloader.java
+/src/test/

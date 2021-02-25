@@ -2,7 +2,7 @@
 Serwis ogłoszeniowy
 
 #### Motywacja
-Project created during courses Projektowanie Aplikacji Internetowych and Organizacja i Rozwj projektw Open Source.
+Projekt przygotowany w ramach kursów Projektowanie Aplikacji Internetowych i Organizacja i Rozwj projektw Open Source.
 
 #### Tech & framework
 * Java 8

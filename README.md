@@ -10,6 +10,7 @@ Project created during courses Projektowanie Aplikacji Internetowych and Organiz
 * Spring Boot 2.2.7
 * Hibernate 5.4.15
 * PostgreSQL
+* JHipster
 
 #### uruchomienie aplikacji
 
@@ -43,8 +44,6 @@ Project created during courses Projektowanie Aplikacji Internetowych and Organiz
 <!-- /markdown-swagger -->
 
 #### Opis serwisów
-
-# Opis serwisów:
 
 getOffers()
 Metoda pobierająca wszystkie dostępne oferty w formie listy/tablicy obiektów Offer   
@@ -168,7 +167,7 @@ return this.http.post<User>('http://localhost:8080/rest/register', value);
 }
 ```
 
-# Opis modelu:
+#### Opis modelu
 
 Category:  
 Kategoria używana w polu 'Kategoria', zawiera jedno pole 'Name' typu String class Kategoria { String name; }

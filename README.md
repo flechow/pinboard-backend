@@ -9,6 +9,7 @@ Project created during courses Projektowanie Aplikacji Internetowych and Organiz
 * Maven 3.3.9
 * Spring Boot 2.2.7
 * Hibernate 5.4.15
+* PostgreSQL
 
 #### Running app 
 
